@@ -42,9 +42,13 @@ input:hover{
   window.location.href = 'https://uplcc.github.io/bk/';
   }else{
   document.getElementById("f").innerHTML = "用户或密码错误，请重试";
+  c.style.border="2px solid #ff6d34";
+  setTimeout(function(){c.style.border="";},500);
   }
   }else{
   document.getElementById("f").innerHTML = "用户或密码错误，请重试";
+  b.style.border="2px solid #ff6d34";
+  setTimeout(function(){b.style.border="";},500);
   }
   }
   </script>
